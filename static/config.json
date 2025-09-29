@@ -1,0 +1,31 @@
+{
+  "Items": {
+    "soil": "soil",
+    "water": "water"
+  },
+  "Pots": {
+    "pot": {
+      "name": "pot",
+      "empty": "bzzz_growing_freepot_a",
+      "normal": "bzzz_growing_freepot_b",
+      "watered": "bzzz_growing_freepot_c"
+    }
+  },
+  "Seeds": {
+    "marijuana_seed": {
+      "receive": "marijuana",
+      "amount": {"min": 10, "max": 20},
+      "stages": {
+        "1": null,
+        "2": "prop_weed_02",
+        "3": "prop_weed_01"
+      }
+    }
+  },
+  "Growing": {
+    "Interval": 60000
+  },
+  "Database": {
+    "SaveInterval": 60000
+  }
+}
